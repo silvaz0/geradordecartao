@@ -1,0 +1,98 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+
+body { 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: black; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: yellowgreen; 
+  padding: 40px; 
+} 
+
+.form { 
+  width: 100%; 
+  max-width: 500px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+} 
+
+.form h1 { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 12px; 
+  font-size: 2.1rem; 
+  font-weight: 800; 
+  color: orange; 
+  margin-bottom: 8px; 
+  line-height: 1.2; 
+} 
+
+.form input { 
+  width: 100%; 
+  height: 52px; 
+  border: none; 
+  border-radius: 12px; 
+  background-color: rgba(87, 96, 112, 0.7); 
+  padding: 0 18px; 
+  font-size: 1.15rem; 
+  color: #edf2f7; 
+  outline: none; 
+} 
+
+#btnGerar { 
+  width: 60%; 
+  height: 54px; 
+  margin: 8px auto 0; 
+  border: none; 
+  border-radius: 12px; 
+  color: #ffffff; 
+  background-color: orange; 
+  font-size: 1.05rem; 
+  font-weight: 700; 
+  cursor: pointer; 
+  box-shadow: 0 4px 12px rgba(120, 128, 245, 0.28); 
+} 
+
+.card { 
+  width: 100%; 
+  max-width: 500px; 
+  height: 150px; 
+  border-radius: 14px; 
+  margin-top: 18px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 8px; 
+  box-shadow: 0 8px 18px rgba(122, 102, 214, 0.22); 
+  background-color: rgb(171, 94, 243); 
+} 
+
+.card .nome { 
+  font-size: 2rem; 
+  font-weight: 800; 
+  color: orange; 
+} 
+
+.card .cargo { 
+  font-size: 1.1rem; 
+  font-weight: 500; 
+  color: rgba(64, 228, 31, 0.95); 
+} 
+
+.contador { 
+  text-align: center; 
+  margin-top: 16px; 
+  font-size: 1rem; 
+  font-weight: 600; 
+  color: orange; 
+}
